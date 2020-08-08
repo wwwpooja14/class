@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nwe{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    background-color:white;
+    
+}
+.nwe nav{
+    margin-top: 0px;
+    margin-right: 15px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+nav a{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 40px;
+    
+    height: 85%;
+    float: left;
+    padding-top: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.section{
+    
+    height: 400px;
+    background-color: rgb(50,100,255);
+    justify-content: center;
+}
+.h1{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size:50px;
+    padding-top: 30px;
+}
+.h2{
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-size: 25px;
+}
+.control{
+    height: 50px;
+    width: 360px;
+    margin-left: 400px;
+}
+.button{
+    height:50px ;
+    width: 190px;
+    background-color: rgb(224, 17, 17);
+    margin-left: 30px;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.container{
+    
+    background-color: silver;
+     width: 100%;
+    border-radius: 4px;
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.row{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: space-arounds;
+    display: flex;
+}
+.image{
+    display: block;
+    float: left;
+    justify-content: space-around;
+    margin: 1px;
+     width: 390px;
+     padding: 10px;
+ }
+.image img{
+    width: 100%;
+    height: 350px;
+    }
+
+.image p{
+    width: 10%;
+    float: none;
+}
+.text1{
+    font-family: sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+p{
+    display: block;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.text1 a{
+    text-decoration: none;
+    color: black;
+}
+.home{
+    background-color: black;
+    color: white;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+.home nav{
+    margin-top: 0px;
+    margin-right: 15px;
+    height: 40px;
+    margin-bottom: 0px;
+}
+nav a{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+    
+}
