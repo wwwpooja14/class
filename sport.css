@@ -95,6 +95,9 @@ nav a{
 .write{
     font-family: sans-serif;
 }
+.write:hover{
+    text-decoration: underline;
+}
 .text span{
     font-size: 16px;
 
