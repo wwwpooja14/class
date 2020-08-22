@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 70px;
+    justify-content: space-between;
+    background-color:whitesmoke;
+    box-shadow:rgb(53, 51, 51);
+    
+}
+.logo{
+    margin: 10px;
+    float: left;
+    font-size: 30px;
+    margin-left: 10rem;
+}
+p {
+    font-size: 15px;
+    color: red;
+}
+nav  {
+    float: right;
+    justify-content: space-between;
+     margin-top: 20px;
+}
+nav a{
+    margin-top: 10px;
+  
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+/*--- section---*/
+section{
+ justify-content: center;
+    
+}
+table{
+   text-align: center;
+}
+.red{
+    color: red;
+}
+.yellow{
+    color: yellow;
+}

@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Simple Table Assignment
+        </title>
+        <link href="table.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Raleway:700 &amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <header>
+            <div class="flex-container">
+               <div class="logo">
+                   XYZ<br>
+                   <p>software</p>
+                </div>
+
+                <nav>
+                   <i class="fa fa-bell fa-2x"> </i>
+
+                   <a href="#" ><i class="fa fa-user "> </i>Saloni Jain <i class="fa fa-angle-down"></i></a>
+                </nav>
+             </div>
+        </header>
+
+        <section>
+          <div class="container">
+            <i class="fa fa-window-minimize"></i>
+            <i class="fa fa-info"></i>
+            <i class="fa fa-inr"></i>
+            <i class="fa fa-file-o"></i>
+          </div>
+             
+            <h1>FUV Generation</h1>
+            <table  cellspacing="19" >
+                <tbody>
+                  <tr>
+                  <th>
+                     Section/Record Type
+                  </th>
+                  <th>
+                      Field Name
+                  </th>
+                  <th>
+                      Error type
+                  </th>
+                  <th>
+                      Error Code & Description
+                  </th>
+                  <th>
+                      View & fix Error
+                  </th>
+                  </tr>
+                  <tr>
+                   <td>Challan</td>
+                   <td>Bank Challan Number</td>
+                   <td class="red">Error AS per FUV</td>
+                   <td>Challan NUmber 12345 is not valid</td>
+                   <td><i class="fa fa-eye"></i></td>
+                 </tr>
+                 <tr>
+                     <td>Deducted</td>
+                     <td>Pan</td>
+                     <td class="yellow">Softwre Warning</td>
+                     <td>Unverified PAN information</td>
+                     <td><i class="fa fa-eye"></i></td>
+                  </tr>
+                   <tr>
+                     <td>Challan</td>
+                     <td>Bank Challan Number</td>
+                     <td class="yellow">software Warning</td>
+                     <td>Unverified Challan Detailes available</td>
+                     <td><i class="fa fa-eye"></i></td>
+                   </tr>
+                </tbody>
+            </table>
+        </section>
+         
+        
+    </body>
+</html>
