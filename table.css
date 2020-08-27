@@ -39,15 +39,60 @@ nav a{
 }
 /*--- section---*/
 section{
- justify-content: center;
+ 
     
+}
+.a{
+    border: 1px solid gray;
+  
+    display: flex;
+   
+   margin-left: 300px;
+   margin-top: 50px;
+   font-size: 17px;
+   
+}
+.icon{
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.fa fa-minus{
+    border-radius: 50%;
+}
+h1{
+    margin-left: 300px;
+    padding: 10px;
 }
 table{
    text-align: center;
+   border: 1px solid rgb(23, 144, 214);
+   margin-left: 300px;
+}
+td{
+    border: 1px solid black;
 }
 .red{
     color: red;
 }
 .yellow{
     color: yellow;
+}
+.footer {
+    
+    display: flex;
+    float: right;
+    margin-bottom: 20px;
+    justify-content: space-between;
+}
+
+.footer button {
+    justify-self: center;
+    height: 40px;
+    
+    
+    background-color: #fbfbfb;
+}
+p{
+    color:black;
+    margin-top: ;
 }
