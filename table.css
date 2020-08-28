@@ -42,22 +42,42 @@ section{
  
     
 }
-.a{
-    border: 1px solid gray;
-  
-    display: flex;
-   
+.heading{
+   display: flex;
    margin-left: 300px;
    margin-top: 50px;
    font-size: 17px;
    
 }
 .icon{
-    border: 1px solid gray;
-    border-radius: 5px;
-}
-.fa fa-minus{
+    border: 1px solid black;
     border-radius: 50%;
+    width: 28px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    position: initial;
+    background-color: whitesmoke;
+   
+}
+.text{
+    display: flex;
+    border: 1px solid black;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: rgb(236, 233, 233);
+}
+.text:hover{
+    background-color: gray;
+}
+.point{
+    color: black;
+    margin-top: 3px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
 }
 h1{
     margin-left: 300px;
@@ -67,9 +87,23 @@ table{
    text-align: center;
    border: 1px solid rgb(23, 144, 214);
    margin-left: 300px;
+   background-color: rgb(221, 219, 219);
+   
+    
 }
-td{
-    border: 1px solid black;
+.table{
+    border-collapse: collapse;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    border-top: 1px solid black;
+}
+.table td{
+    border-right: 1px solid rgb(13, 155, 165);
+    display: table-cell;
+    vertical-align: inherit;
 }
 .red{
     color: red;
@@ -80,19 +114,24 @@ td{
 .footer {
     
     display: flex;
-    float: right;
-    margin-bottom: 20px;
-    justify-content: space-between;
+   float: right;
+   margin-right: 110px;
+   margin-top: 40px;
+    
 }
 
 .footer button {
     justify-self: center;
     height: 40px;
-    
-    
-    background-color: #fbfbfb;
+    border: none;
+    background-color: #d1cdcd;
+    margin-right: 12px;
+    width: 100px;
 }
-p{
-    color:black;
-    margin-top: ;
+.file{
+    color: black;
+    border: 1px solid rgb(212, 212, 212);
+    text-align: center;
+    padding: 4px;
+    margin-right: 12px;
 }
