@@ -36,21 +36,44 @@ nav a{
     font-size: 20px;
 
 }
+@media(max-width:600px){
+    .flex-container{
+        width: 100%;
+        
+        height: 70px;
+    }
+    .logo{
+        margin-left: 20px;
+    }
+    nav a{
+        font-size: 14px;
+    }
+}
 /*--- section---*/
 .container{
   margin-left: 300px;
   margin-top: 50px;
+}
+@media(max-width:600px){
+    .container{
+        margin-left: 30px;
+    }
 }
 .box{
     border:1px solid black;
     width: 70%;
     border-radius: 15px 15px 0 0;
 }
+@media(max-width:600px){
+    .box{
+        width: 100%;
+    }
+}
 .heading{
    display: flex;
-   
+  
    border-bottom: 1px solid black;
-   padding: 10px;
+   padding: 1px;
    font-size: 17px;
    
 }
@@ -73,6 +96,17 @@ nav a{
     border-radius: 20px;
     background-color: rgb(236, 233, 233);
 }
+@media(max-width:600px){
+    .text{
+        display: flex;
+       width: 150px;
+       height: 30px;
+    }
+    .point{
+        display: flex;
+        font-size: 12px;
+    }
+}
 .text:hover{
     background-color: gray;
 }
@@ -84,8 +118,11 @@ a{
     text-decoration: none;
     font-size: 25px;
 }
+@media(max-width:600px){
+   a {font-size: 15px;}
+}
 h1{
-    
+    margin-top: 35px;
     padding: 10px;
 }
 table{
@@ -155,7 +192,8 @@ td{
 .button-box {
     margin-top: 50px;
     margin-bottom: 30px;
-	text-align: right;
+    text-align: right;
+    margin-right: 12px;
 }
 
 .button-box a {
