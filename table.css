@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -38,14 +37,20 @@ nav a{
 
 }
 /*--- section---*/
-section{
- 
-    
+.container{
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.box{
+    border:1px solid black;
+    width: 70%;
+    border-radius: 15px 15px 0 0;
 }
 .heading{
    display: flex;
-   margin-left: 300px;
-   margin-top: 50px;
+   
+   border-bottom: 1px solid black;
+   padding: 10px;
    font-size: 17px;
    
 }
@@ -80,18 +85,23 @@ a{
     font-size: 25px;
 }
 h1{
-    margin-left: 300px;
+    
     padding: 10px;
 }
 table{
    text-align: center;
    border: 1px solid rgb(23, 144, 214);
-   margin-left: 300px;
+  
    background-color: rgb(221, 219, 219);
    
     
 }
+th{
+    padding: 8px;
+    border-bottom: 1px solid black;
+}
 .table{
+    padding: 9px;
     border-collapse: collapse;
 }
 tr{
@@ -105,6 +115,13 @@ tr{
     display: table-cell;
     vertical-align: inherit;
 }
+table{
+    border-spacing: 0;
+}
+td{
+    padding: 8px;
+    border-bottom: 2px dotted skyblue;
+}
 .red{
     color: red;
 }
@@ -115,7 +132,7 @@ tr{
     
     display: flex;
    float: right;
-   margin-right: 110px;
+   
    margin-top: 40px;
     
 }
@@ -125,7 +142,7 @@ tr{
     height: 40px;
     border: none;
     background-color: #d1cdcd;
-    margin-right: 12px;
+   
     width: 100px;
 }
 .file{
@@ -133,5 +150,23 @@ tr{
     border: 1px solid rgb(212, 212, 212);
     text-align: center;
     padding: 4px;
-    margin-right: 12px;
+    
+}
+.button-box {
+    margin-top: 50px;
+    margin-bottom: 30px;
+	text-align: right;
+}
+
+.button-box a {
+    background: #80808029;
+    padding: 9px;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.button-box a:hover {
+    background: #80808094;
+    
 }
