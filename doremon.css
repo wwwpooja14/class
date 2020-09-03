@@ -180,28 +180,30 @@
 
 }
 .left-smile{
-    width: 42px;
+    width: 57px;
     height: 44px;
     position: absolute;
     border-bottom: 1px solid black;
     border-left: 1px solid black;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    background-color:whitesmoke;
-    top: -46px;
-    left: -47px;
+    border-bottom-left-radius: 20px;
+    background-color:white;
+    top: -45px;
+    left: -58px;
 }
 .right-smile{
-    width: 42px;
+    width: 59px;
     height: 44px;
     position: absolute;
     border-bottom: 1px solid black;
     border-right: 1px solid black;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    background-color:whitesmoke;
-    top: -46px;
-    left: 146px;
+    border-bottom-right-radius: 20px;
+    background-color:white;
+    top: -45px;
+    left: 145px;
 }
 .toung{
     position: absolute;
@@ -238,24 +240,26 @@
     position: absolute;
     width: 72px;
     height: 20px;
-    border: 1px solid black;
+    border-left: 1px solid black;  
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
     background-color: deeppink;
-    top:-18px;
-    right: 82px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    top:-20px;
+    right: 84px;
+   
     transform: rotate(32deg);
 }
 .right-belt{
     position: absolute;
     width: 72px;
     height: 20px;
-    border: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
     background-color: deeppink;
-    top:-15px;
-    left: 82px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    top:-16px;
+    left: 84px;
+   
     transform: rotate(-26deg);
 }
 .bell{
@@ -305,6 +309,7 @@
     background-color: skyblue;
     border-bottom-left-radius: 44px;
     border-bottom-right-radius: 44px;
+    border-top-right-radius: 6px;
     margin-left: 19px;
    
 }
