@@ -1,95 +1,161 @@
-*{
-margin: 0;
-padding: 0;
-font-family: 'Poppins', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background-image: url(image/survey.jpg);
     background-color: rgba(58, 58, 158, 0.8);
     background-blend-mode: soft-light;
     background-attachment: fixed;
-    
 }
-.body:hover{
+
+.body:hover {
     background-blend-mode: multiply;
     background-color: grey;
 }
-.header h1{
+
+.header h1 {
     padding-top: 80px;
     text-align: center;
     color: whitesmoke;
     ;
 }
-.header p{
+
+.header p {
     padding-top: 10px;
     font-size: 21px;
     font-style: italic;
     text-align: center;
     color: whitesmoke;
 }
-.register{
+
+.register {
     background-color: rgb(41, 41, 73);
     border-radius: 5px;
-   width: 50%;
-   height: 90rem;
-   margin-left: 23rem;
+    width: 50%;
+    height: 90rem;
+    margin-left: 23rem;
 }
-section{
+
+section {
     margin: 22px;
-    
 }
-.form-group{
-     font-size:20px ;
-     font-style: italic;
-     padding: 3%;
-     color:white ;
+
+.form-group {
+    font-size: 20px;
+    font-style: italic;
+    padding: 3%;
+    color: white;
 }
-.form-control{
+
+.form-control {
     width: 90%;
     height: 23px;
     margin-top: 3px;
     padding: 7px;
     padding-top: 15px;
     border-radius: 5px;
-    
 }
-.radio{
-    display: inline;
-    margin-right: 4px;
-    padding: 50px;
-    height:19px;
-    width: 19px;
-    
+
+.radio {
+    background-color: indigo;
+    color: indigo;
 }
-.form-control2{
+
+.tick-mark {
+    width: 15px;
+    height: 15px;
+    border: 2px solid gray;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+}
+
+input:checked~.tick-mark {
+    border: 2px solid red;
+    position: absolute;
+    top: 0px;
+}
+
+input:checked~.tick-mark:after {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: red;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.2px;
+    left: 3.2px;
+}
+
+.radio-box {
+    position: relative;
+}
+
+.radio-type {
+    display: block;
+}
+
+.form-control2 {
     width: 90%;
     height: 47px;
     margin-top: 3px;
     padding: 7px;
     padding-top: 15px;
     border-radius: 5px;
-    
 }
-.checkbox{
-    display: inline;
-    margin-right: 4px;
-    width: 19px;
-    height: 19px;
-}
-.comment{
+
+.comment {
     height: 120px;
     width: 80%;
     padding: 0.62rem;
 }
-.button{
-       display: block;
-       width: 80%;
-       background-color:mediumseagreen;   
-       color: inherit;
-       border-radius: 2px;
-       cursor: pointer;
-       padding:10px;
-       font-size: 24px;
-       outline: 1px;
-       margin-left: 20px;
+
+.button {
+    display: block;
+    width: 80%;
+    background-color: mediumseagreen;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    outline: 1px;
+    margin-left: 20px;
+}
+
+.custom-checkbox {
+    width: 15px;
+    height: 15px;
+    border: 2px solid gray;
+    display: block;
+    border-radius: 10%;
+    position: absolute;
+    top: 0px;
+    background-color: white;
+}
+
+input:checked~.custom-checkbox {
+    border: 2px solid indigo;
+    position: absolute;
+    top: 0px;
+}
+
+input:checked~.custom-checkbox:after {
+    content: "\2713";
+    width: 12px;
+    height: 6px;
+    font-size: 30px;
+    position: absolute;
+    top: -17px;
+    left: -7px;
+    color: orangered;
+}
+
+.box {
+    position: relative;
 }
