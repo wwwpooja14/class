@@ -1,22 +1,22 @@
-*{
+* {
     margin: 0;
-   
 }
 
-.flex-container{
-   position: absolute;
+.flex-container {
+    position: absolute;
     margin-left: 350px;
     margin-top: 60px;
-   
 }
-.face{
+
+.face {
     width: 300px;
     height: 280px;
     border: 1px solid black;
     background-color: skyblue;
     border-radius: 190px;
 }
-.inner-face{
+
+.inner-face {
     width: 270px;
     height: 250px;
     border: 1px solid black;
@@ -26,17 +26,19 @@
     left: 15px;
     top: 40px;
 }
-.eye{
+
+.eye {
     width: 50px;
     height: 60px;
     border: 1px solid black;
-    border-radius: 40px ;
-    background-color:white;
+    border-radius: 40px;
+    background-color: white;
     position: absolute;
     left: 90px;
-    top:24px ;
+    top: 24px;
 }
-.inner-eye{
+
+.inner-eye {
     width: 14px;
     height: 14px;
     border: 1px solid black;
@@ -44,9 +46,10 @@
     background-color: darkslategrey;
     position: absolute;
     top: 37px;
-    left:24px ;
+    left: 24px;
 }
-.inner-eye-dot{
+
+.inner-eye-dot {
     width: 6px;
     height: 6px;
     border: 1px solid black;
@@ -55,17 +58,19 @@
     border-radius: 50%;
     left: 5px;
 }
-.eye2{
+
+.eye2 {
     width: 50px;
     height: 60px;
     border: 1px solid black;
-    border-radius: 40px ;
-    background-color:white;
+    border-radius: 40px;
+    background-color: white;
     position: absolute;
     left: 150px;
-    top:24px ;
+    top: 24px;
 }
-.inner-eye2{
+
+.inner-eye2 {
     width: 14px;
     height: 14px;
     border: 1px solid black;
@@ -75,7 +80,8 @@
     top: 37px;
     left: 10px;
 }
-.inner-eye-dot2{
+
+.inner-eye-dot2 {
     width: 6px;
     height: 6px;
     border: 1px solid black;
@@ -84,7 +90,8 @@
     border-radius: 50%;
     left: px;
 }
-.nose{
+
+.nose {
     width: 30px;
     height: 30px;
     border: 1px solid black;
@@ -94,7 +101,8 @@
     top: 90px;
     left: 129px;
 }
-.nose-dot{
+
+.nose-dot {
     width: 15px;
     height: 15px;
     border: 1px solid black;
@@ -103,7 +111,8 @@
     background-color: white;
     left: 4px;
 }
-.beard{
+
+.beard {
     width: 81px;
     height: 1px;
     background-color: black;
@@ -112,7 +121,8 @@
     left: 102px;
     transform: rotate(91deg);
 }
-.beard2{
+
+.beard2 {
     width: 91px;
     height: 1px;
     background-color: black;
@@ -121,7 +131,8 @@
     left: 20px;
     transform: rotate(15deg);
 }
-.beard3{
+
+.beard3 {
     width: 100px;
     height: 1px;
     background-color: black;
@@ -130,7 +141,8 @@
     left: 7px;
     transform: rotate(1deg);
 }
-.beard4{
+
+.beard4 {
     width: 70px;
     height: 1px;
     background-color: black;
@@ -140,7 +152,7 @@
     transform: rotate(-14deg);
 }
 
-.beard5{
+.beard5 {
     width: 91px;
     height: 1px;
     background-color: black;
@@ -149,7 +161,8 @@
     left: 173px;
     transform: rotate(-24deg);
 }
-.beard6{
+
+.beard6 {
     width: 102px;
     height: 1px;
     background-color: black;
@@ -158,7 +171,8 @@
     left: 183px;
     transform: rotate(-4deg);
 }
-.beard7{
+
+.beard7 {
     width: 77px;
     height: 1px;
     background-color: black;
@@ -167,7 +181,8 @@
     left: 177px;
     transform: rotate(15deg);
 }
-.smile{
+
+.smile {
     width: 144px;
     height: 50px;
     background-color: red;
@@ -177,9 +192,9 @@
     border-bottom-right-radius: 71px;
     top: 203px;
     left: 69px;
-
 }
-.left-smile{
+
+.left-smile {
     width: 57px;
     height: 44px;
     position: absolute;
@@ -188,11 +203,12 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    background-color:white;
+    background-color: white;
     top: -45px;
     left: -58px;
 }
-.right-smile{
+
+.right-smile {
     width: 59px;
     height: 44px;
     position: absolute;
@@ -201,31 +217,34 @@
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    background-color:white;
+    background-color: white;
     top: -45px;
     left: 145px;
 }
-.toung{
+
+.toung {
     position: absolute;
     width: 32px;
     height: 33px;
-    background-color: yellow;
+    background-color: orangered;
     border: 1px solid black;
     border-radius: 60px;
     top: 220px;
     left: 108px;
 }
-.toung2{
+
+.toung2 {
     position: absolute;
     width: 32px;
     height: 33px;
-    background-color: yellow;
+    background-color: orangered;
     border: 1px solid black;
     border-radius: 60px;
     top: px;
     left: 28px;
 }
-.belt{
+
+.belt {
     position: absolute;
     width: 100px;
     height: 20px;
@@ -236,20 +255,21 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 }
-.left-belt{
+
+.left-belt {
     position: absolute;
     width: 72px;
     height: 20px;
-    border-left: 1px solid black;  
+    border-left: 1px solid black;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
     background-color: deeppink;
-    top:-20px;
+    top: -20px;
     right: 84px;
-   
     transform: rotate(32deg);
 }
-.right-belt{
+
+.right-belt {
     position: absolute;
     width: 72px;
     height: 20px;
@@ -257,12 +277,12 @@
     border-top: 1px solid black;
     border-bottom: 1px solid black;
     background-color: deeppink;
-    top:-16px;
+    top: -16px;
     left: 84px;
-   
     transform: rotate(-26deg);
 }
-.bell{
+
+.bell {
     width: 40px;
     height: 40px;
     background-color: gold;
@@ -272,7 +292,8 @@
     top: 5px;
     left: 30px;
 }
-.tape{
+
+.tape {
     width: 35px;
     height: 7px;
     background-color: yellowgreen;
@@ -283,7 +304,8 @@
     border-top-right-radius: 3px;
     left: 2px;
 }
-.tin{
+
+.tin {
     width: 10px;
     height: 10px;
     border: 1px solid black;
@@ -293,7 +315,8 @@
     top: 18px;
     left: 14px;
 }
-.tin-hig{
+
+.tin-hig {
     width: 5px;
     height: 9.5px;
     border: 1px solid black;
@@ -302,7 +325,8 @@
     top: 28px;
     left: 17px;
 }
-.body{
+
+.body {
     width: 250px;
     height: 266px;
     border: 1px solid black;
@@ -311,9 +335,9 @@
     border-bottom-right-radius: 44px;
     border-top-right-radius: 6px;
     margin-left: 19px;
-   
 }
-.inner-body{
+
+.inner-body {
     width: 200px;
     height: 180px;
     border: 1px solid black;
@@ -322,7 +346,8 @@
     padding-top: 10px;
     background-color: white;
 }
-.pockit{
+
+.pockit {
     width: 158px;
     height: 71px;
     background-color: rgb(250, 250, 250);
@@ -333,7 +358,8 @@
     top: 393px;
     left: 63px;
 }
-.gap{
+
+.gap {
     width: 50px;
     height: 56px;
     position: absolute;
@@ -342,10 +368,11 @@
     border-right: 1px solid black;
     border-radius: 50px;
     background-color: white;
-    left: 120px ;
+    left: 120px;
     bottom: -16px;
 }
-.hand{
+
+.hand {
     width: 47px;
     height: 180px;
     border: 1px solid black;
@@ -357,7 +384,8 @@
     left: -35px;
     position: absolute;
 }
-.hand-bol{
+
+.hand-bol {
     width: 63px;
     height: 63px;
     position: absolute;
@@ -366,9 +394,9 @@
     border-radius: 50%;
     top: 168px;
     right: -7px;
-
 }
-.hand2{
+
+.hand2 {
     width: 47px;
     height: 164px;
     border: 1px solid black;
@@ -380,7 +408,8 @@
     left: 248px;
     position: absolute;
 }
-.hand-boll{
+
+.hand-boll {
     width: 63px;
     height: 63px;
     position: absolute;
@@ -390,17 +419,19 @@
     top: 154px;
     left: -8px;
 }
-.foot{
+
+.foot {
     width: 120px;
     height: 70px;
     border: 1px solid black;
     border-radius: 90px;
     background-color: white;
     position: absolute;
-    bottom: -68px;   
+    bottom: -68px;
     left: 20px;
 }
-.foot2{
+
+.foot2 {
     width: 120px;
     height: 70px;
     border: 1px solid black;
