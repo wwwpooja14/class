@@ -1,0 +1,308 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .flex-container {
+        margin-top: 30px;
+    }
+    
+    .board {
+        width: 600px;
+        height: 400px;
+        border: 5px solid black;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        position: absolute;
+        margin-left: 330px;
+        background-color: rgb(203, 238, 240);
+    }
+    
+    .bottom-border {
+        width: 700px;
+        height: 20px;
+        border: 5px solid black;
+        border-radius: 90px;
+        margin-left: 280px;
+        position: absolute;
+        top: 435px;
+        background-color: peru;
+    }
+    
+    .cup {
+        width: 66px;
+        height: 76px;
+        border: 8px solid black;
+        position: absolute;
+        left: 300px;
+        top: 502px;
+        background-color: tomato;
+        border-bottom-left-radius: 28px;
+        border-bottom-right-radius: 28px;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+    
+    .cup-line {
+        width: 60px;
+        border: 3px solid black;
+        position: relative;
+        top: 12px;
+        background-color: black;
+    }
+    
+    .surface-line {
+        width: 160px;
+        height: 0px;
+        border: 4px solid black;
+        position: relative;
+        border-radius: 6px;
+        top: 78px;
+        left: -58px;
+    }
+    
+    .surface-dot {
+        width: 8px;
+        height: 8px;
+        border: 1px solid black;
+        background-color: black;
+        border-radius: 50%;
+        position: relative;
+        left: 175px;
+        top: -5px;
+    }
+    
+    .surface {
+        width: 315px;
+        height: 0px;
+        border: 4px solid black;
+        position: absolute;
+        border-radius: 9px;
+        top: -5px;
+        left: 214px;
+    }
+    
+    .surface-2 {
+        width: 250px;
+        height: 0px;
+        border: 4px solid black;
+        position: absolute;
+        border-radius: 9px;
+        top: -5px;
+        left: 560px;
+    }
+    
+    .laptop {
+        width: 250px;
+        height: 190px;
+        border: 4px solid black;
+        border-radius: 30px;
+        position: absolute;
+        top: 396px;
+        left: 487px;
+        background-color: rgb(230, 230, 230);
+    }
+    
+    .cam {
+        width: 50px;
+        height: 50px;
+        border: 4px solid black;
+        position: relative;
+        border-radius: 50%;
+        top: 30px;
+        left: 10px;
+        background-color: rgb(214, 214, 255);
+    }
+    
+    p {
+        text-align: center;
+        font-size: 35px;
+    }
+    
+    .log {
+        width: 50px;
+        height: 50px;
+        border: 4px solid black;
+        position: relative;
+        border-radius: 50%;
+        top: 45px;
+        left: 158px;
+        background-color: rgb(250, 162, 192);
+    }
+    
+    .book1 {
+        width: 100px;
+        height: 10px;
+        border: 4px solid black;
+        background-color: rgb(248, 131, 110);
+        position: absolute;
+        top: 530px;
+        left: 870px;
+    }
+    
+    .book-line {
+        width: 20px;
+        height: 10px;
+        border-right: 3px solid black;
+        position: relative;
+        left: 0px;
+        background-color: red;
+    }
+    
+    .book-line2 {
+        width: 20px;
+        height: 10px;
+        border-left: 3px solid black;
+        position: relative;
+        left: 77px;
+        background-color: red;
+    }
+    
+    .book2 {
+        width: 110px;
+        height: 20px;
+        border: 4px solid black;
+        position: absolute;
+        top: 548px;
+        left: 894px;
+        background-color: greenyellow;
+    }
+    
+    .book2-line {
+        width: 20px;
+        height: 20px;
+        border-right: 3px solid black;
+        position: relative;
+        left: 0px;
+        background-color: green;
+    }
+    
+    .book2-line2 {
+        width: 20px;
+        height: 20px;
+        border-left: 3px solid black;
+        position: relative;
+        left: 87px;
+        background-color: green;
+    }
+    
+    .book3 {
+        width: 110px;
+        height: 10px;
+        border: 4px solid black;
+        position: absolute;
+        top: 576px;
+        left: 870px;
+        background-color: blueviolet;
+    }
+    
+    .book3-line {
+        width: 20px;
+        height: 10px;
+        border-right: 3px solid black;
+        position: relative;
+        left: 0px;
+        background-color: blue;
+    }
+    
+    .book3-line2 {
+        width: 20px;
+        height: 10px;
+        border-left: 3px solid black;
+        position: relative;
+        left: 87px;
+        background-color: blue;
+    }
+    
+    .apple {
+        width: 40px;
+        height: 40px;
+        border: 3px solid black;
+        position: absolute;
+        border-radius: 40%;
+        top: 486px;
+        left: 897px;
+        background-color: chartreuse;
+    }
+    
+    .apple-top {
+        width: 0px;
+        height: 23px;
+        border-right: 2px solid black;
+        position: relative;
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 10px;
+        top: -23px;
+        left: 19px;
+    }
+    
+    .upbody {
+        width: 336px;
+        height: 137px;
+        border: 5px solid black;
+        position: absolute;
+        top: 331px;
+        left: 441px;
+        border-top-left-radius: 105px;
+        border-top-right-radius: 105px;
+        background-color: rgb(155, 219, 219);
+    }
+    
+    .upbody-line {
+        width: 336px;
+        height: 0px;
+        border: 2px solid black;
+        position: relative;
+        background-color: black;
+        top: 122px;
+        left: -1px;
+    }
+    
+    .hand {
+        width: 316px;
+        height: 97px;
+        border: 5px solid black;
+        position: absolute;
+        top: 475px;
+        left: 452px;
+        border-bottom-left-radius: 55px;
+        border-bottom-right-radius: 55px;
+        background-color: rgb(255, 222, 161);
+    }
+    
+    .beard {
+        width: 130px;
+        height: 125px;
+        border: 4px solid black;
+        position: absolute;
+        top: 257px;
+        left: 546px;
+        border-bottom-left-radius: 71px;
+        border-bottom-right-radius: 71px;
+        background-color: chocolate;
+    }
+    
+    .top-beard {
+        width: 130px;
+        height: 126px;
+        border: 4px solid black;
+        position: relative;
+        background-color: rgb(255, 222, 161);
+        border-bottom-left-radius: 104px;
+        border-bottom-right-radius: 105px;
+        top: -53px;
+        left: -4px;
+        border-top-left-radius: 77px;
+        border-top-right-radius: 77px;
+    }
+    
+    .nose {
+        width: 17px;
+        height: 10px;
+        border: 4px solid black;
+        position: relative;
+        border-radius: 50px;
+        border-top: none;
+        top: -102px;
+        left: 52px;
+    }
